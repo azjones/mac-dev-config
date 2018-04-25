@@ -1,0 +1,4 @@
+export LAMBDA_SECURITY_GROUP_ID="sg-0266a3d966c2c3d3b"
+export PRIVATE_SUBNET_ZONE_1_ID="subnet-0afd1811cfd673484"
+export PRIVATE_SUBNET_ZONE_2_ID="subnet-01b8d3f64fce76d02"
+export NPM_TOKEN="<tokenHere>"
