@@ -2,6 +2,14 @@
 
 Mac Development Environment Setup Config files
 
+## Install Homebrew
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Ref: https://github.com/Homebrew/install
+
 ## Install Node
 
 ```bash
@@ -12,4 +20,16 @@ brew install node
 
 ```bash
 npm install -g n
+```
+
+## Install serverless
+
+```bash
+npm install -g serverless
+```
+
+## Install aws-cli via Homebrew
+
+```bash
+brew install awscli
 ```
