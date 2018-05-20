@@ -1,6 +1,6 @@
-# mac-dev-config
+# macdev
 
-Mac Development Environment Setup Config files
+A beginner's guide to setting up a local development environment on Mac OS X. Shamelessly copied from https://github.com/nicolashery/mac-dev-setup and modified for VS Code and AWS needs.
 
 ## Install Homebrew
 
