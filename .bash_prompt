@@ -43,7 +43,7 @@ function parse_git_branch() {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1$(parse_git_dirty)/"
 }
 
-PS1="\[${bold}${cyan}\]\u \[$white\]in \[${bold}\]\[$green\]\w\[$white\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$magenta\]\$(parse_git_branch)\[$white\]\n\$ \[$reset\]"
+PS1="\[${bold}\]\[$green\]\w\[$white\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$orange\]\$(parse_git_branch)\[$white\]\n\$ \[$reset\]"
 
 # export PS1="\[${bold}${magenta}\]\u \[$white\]at \[$orange\]\h \[$white\]in \[$green\]\w\[$white\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$purple\]\$(parse_git_branch)\[$white\]\n\$ \[$reset\]"
 # export PS2="\[$orange\]→ \[$reset\]"
