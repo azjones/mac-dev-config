@@ -1,23 +1,28 @@
 {
-  "workbench.colorTheme": "Solarized Light",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.startupEditor": "newUntitledFile",
   "eslint.run": "onType",
   "eslint.autoFixOnSave": true,
-  "editor.formatOnSave": true,
-  "workbench.startupEditor": "newUntitledFile",
   "editor.fontSize": 14,
   "editor.tabSize": 2,
-  "prettier.printWidth": 100,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "git.confirmSync": false,
+  "prettier.printWidth": 120,
   "prettier.tabWidth": 2,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
   "prettier.semi": false,
   "prettier.ignorePath": ".prettierignore",
-  "editor.minimap.enabled": false,
+  "git.enableSmartCommit": true,
   "eslint.options": {
     "rules": {
       "import/no-webpack-loader-syntax": 0
     }
   },
+  "yaml.format.enable": true,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": false,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -27,6 +32,5 @@
     "suppressNoRepositoryWarning": false,
     "suppressResultsExplorerNotice": false,
     "suppressShowKeyBindingsNotice": true
-  },
-  "extensions.ignoreRecommendations": false
+  }
 }

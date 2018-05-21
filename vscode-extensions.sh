@@ -5,3 +5,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension mikestead.dotenv
 code --install-extension shd101wyy.markdown-preview-enhanced
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension fknop.vscode-npm
+code --install-extension eg2.vscode-npm-script
+code --install-extension leizongmin.node-module-intellisense
