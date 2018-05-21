@@ -9,3 +9,4 @@ code --install-extension christian-kohler.npm-intellisense
 code --install-extension fknop.vscode-npm
 code --install-extension eg2.vscode-npm-script
 code --install-extension leizongmin.node-module-intellisense
+code --install-extension redhat.vscode-yaml

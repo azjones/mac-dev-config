@@ -3,10 +3,12 @@
   "workbench.startupEditor": "newUntitledFile",
   "eslint.run": "onType",
   "eslint.autoFixOnSave": true,
+  "editor.fontFamily": "Consolas, monospace",
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
+  "terminal.integrated.fontSize": 14,
   "git.confirmSync": false,
   "prettier.printWidth": 120,
   "prettier.tabWidth": 2,
@@ -20,7 +22,6 @@
       "import/no-webpack-loader-syntax": 0
     }
   },
-  "yaml.format.enable": true,
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": false,
   "gitlens.advanced.messages": {
@@ -32,5 +33,28 @@
     "suppressNoRepositoryWarning": false,
     "suppressResultsExplorerNotice": false,
     "suppressShowKeyBindingsNotice": true
-  }
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": false
+  },
+  "yaml.format.enable": true,
+  "yaml.customTags": [
+    "!Ref",
+    "!Sub",
+    "!ImportValue",
+    "!GetAtt",
+    "!Split",
+    "!Select",
+    "!Join",
+    "!GetAZs",
+    "!FindInMap",
+    "!Cidr",
+    "!And",
+    "!Equals",
+    "!If",
+    "!Not",
+    "!Or"
+  ]
 }
