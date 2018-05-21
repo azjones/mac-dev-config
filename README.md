@@ -468,39 +468,39 @@ Installing Node also installs the [npm](https://npmjs.org/) package manager.
 To install a package:
 
 ```
-npm install <package> # Install locally
-npm install -g <package> # Install globally
+$ npm install <package> # Install locally
+$ npm install -g <package> # Install globally
 ```
 
 To install a package and save it in your project's `package.json` file:
 
 ```
-npm install <package> --save
+$ npm install <package> --save
 ```
 
 To see what's installed:
 
 ```
-npm list # Local
-npm list -g # Global
+$ npm list # Local
+$ npm list -g # Global
 ```
 
 To find outdated packages (locally or globally):
 
 ```
-npm outdated [-g]
+$ npm outdated [-g]
 ```
 
 To upgrade all or a particular package:
 
 ```
-npm update [<package>]
+$ npm update [<package>]
 ```
 
 To uninstall a package:
 
 ```
-npm uninstall <package>
+$ npm uninstall <package>
 ```
 
 ### Install n
