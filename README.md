@@ -505,17 +505,29 @@ npm uninstall <package>
 
 ### Install n
 
+Node.js version management: no subshells, no profile setup, no convoluted API, just simple. This is the tool we use in place of _nvm_.
+
 ```bash
 $ npm i -g n
 ```
 
+Simply execute `n <version>` or `n latest` or `n stable` to install a version of Node.js.
+
+```bash
+$ n 8.10
+```
+
 ### Install serverless
+
+Serverless is your toolkit for deploying and operating serverless architectures. Focus on your application, not your infrastructure. A must have for deploying serverless (_AWS Lambda_) functions.
 
 ```bash
 $ npm i -g serverless
 ```
 
-### Instal eslint
+### Install eslint
+
+The pluggable linting utility for JavaScript and JSX. We need this for the VS Code eslint extension.
 
 ```bash
 $ npm i -g eslint
@@ -741,6 +753,5 @@ Here is a quick list of some apps I use, and that you might find useful as well:
 
 ## References
 
-Mac Dev Setup [nicolashery](https://github.com/nicolashery/mac-dev-setup)
-
-Oceanic Next macOS terminal [robinbently](https://github.com/robinbentley/oceanic-next-macos-terminal)
+* Mac Dev Setup [nicolashery](https://github.com/nicolashery/mac-dev-setup)
+* Oceanic Next macOS terminal [robinbently](https://github.com/robinbentley/oceanic-next-macos-terminal)
