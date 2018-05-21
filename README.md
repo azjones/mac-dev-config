@@ -263,6 +263,8 @@ curl -O
 https://raw.githubusercontent.com/azjones/macdev/master/vscode-usersettings.json
 ```
 
+Let's make VS Code beatiful. As with the terminal we will be going with Oceanic Next color theme. You can [install](https://marketplace.visualstudio.com/items?itemName=mhartington.Oceanic-Next) it here. Once installed, be sure to _reload_ VS Code.
+
 ## Python
 
 OS X, like Linux, ships with [Python](http://python.org/) already installed. But you don't want to mess with the system Python (some system tools rely on it, etc.), so we'll install our own version using [pyenv](https://github.com/yyuu/pyenv). This will also allow us to manage multiple versions of Python (ex: 2.7 and 3) should we need to.
