@@ -741,6 +741,18 @@ This really depends on how you want to organize your files, but I like to put al
 brew install awscli
 ```
 
+## Changing HostName on Mac
+
+To see the options like, changing ComputerName, LocalHostName, HostName
+
+```bash
+scutil -h
+```
+
+```bash
+scutil --set HostName <the-name-you-want>
+```
+
 ## Apps
 
 Here is a quick list of some apps I use, and that you might find useful as well:
